@@ -8,11 +8,11 @@ Fibonacci
 
 int main() {
     // definir la longitud de la serie
-    int longitud_serie;
+    int longitud;
     std::cout << "introduce la longitud de tu serie: ";
-    std::cin >> longitud_serie;
+    std::cin >> longitud;
 
-    if(longitud_serie <= 2) {
+    if(longitud <= 2) {
         std::cout << "la longitud debe ser mas de 2 digitos";
         return 1;
     }
@@ -34,7 +34,7 @@ int main() {
     std::cout << segundo_termino;
 
     //
-    for(int i = 2; i < longitud_serie; i++){
+    for(int i = 2; i < longitud; i++){
         siguiente = primer_termino + segundo_termino;
         std::cout << "," << siguiente;
 

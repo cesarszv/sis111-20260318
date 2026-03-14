@@ -14,3 +14,7 @@ aqui se encontrara el codigo del ejercicio resuelto, debe estar pulido, con docu
 ejercicio.md{
 aqui se encontrara el "plan" para resolver el ejercicio, el razonamiento y un diagrama de flujo en mermaid.js
 }
+
+# Reglas
+
+al estar en introduccion el profesor exige usar pura logica y bucles, tambien por el momento evitar usar otras bibliotecas o arrays !LOGICA PURA
